@@ -1,18 +1,6 @@
-main {
-  flex-grow: 1;
-  padding: 2rem;
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 1.1rem;
-}
-
-footer {
-  background-color: #004080;
-  color: white;
-  text-align: center;
-  padding: 1rem 2rem;
-  font-size: 0.9rem;
-  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
-  margin-top: auto;
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
